@@ -1,0 +1,60 @@
+h1,
+#result {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+}
+
+p {
+  font-size: 3rem;
+}
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2.5rem;
+  height: 35rem;
+  flex-direction: column;
+}
+
+.container {
+  width: 50%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.user {
+  margin-top: -2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50rem;
+  margin-left: 22rem;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0;
+}
+button:hover {
+  background-color: #c0c0c0;
+}
+
+button:active {
+  background-color: #6d6d6d;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+  /* opacity: 0;
+  transition: all 0.9s; */
+}
+.hand {
+  padding: 1rem;
+  width: 18rem;
+}
+
+.input {
+  width: 8rem;
+}
